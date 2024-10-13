@@ -1,6 +1,5 @@
 import { Routes,Route } from "react-router-dom";
 import { HomePage,ProductsList,ProductDetail,Login,Register, CartPage , OrderPage ,DashBoardPage, PageNotFound } from '../pages';
-import { CartCard } from "../"
 import { ProtectedRoute } from "./ProtectedRoute";
 
 export const AllRoutes = () => {
