@@ -36,7 +36,7 @@ useEffect(()=>{
      }
   }
   fetchProductDetail();
-},[]);
+},[]); //eslint-disable-line
 
     return (
       <main>
@@ -45,7 +45,7 @@ useEffect(()=>{
             <p className="mb-5 text-lg text-center text-gray-900 dark:text-slate-200">{product.overview}</p>
             <div className="flex flex-wrap justify-around">
               <div className="max-w-xl my-3">
-                <img className="rounded" src={product.poster} alt="image" />
+                <img className="rounded" src={product.poster} alt="poster-cb" />
               </div>
               <div className="max-w-xl my-3">
                 <p className="text-3xl font-bold text-gray-900 dark:text-slate-200">
